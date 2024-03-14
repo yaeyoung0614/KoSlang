@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KoSlang</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="icons/mascot.png" type="image/x-icon" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <img src="icons/logo.png" class="logo" />
+    <img src="icons/mascot.png" class="mascot" />
+
+    <!-- Tiny Rounded Boxes -->
+    <div class="row-1">
+      <div class="box">
+        <h2>극혐</h2>
+        <button class="play-button" onclick="playAudio('audio1')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('극혐 (geukyeom)', 'Extreme disgust.')"
+        >
+          Meaning
+        </button>
+        <audio id="audio1">
+          <source src="audios/geukyeom.mp3" />
+          Play
+        </audio>
+      </div>
+      <div class="box">
+        <h2>밀당</h2>
+        <button class="play-button" onclick="playAudio('audio2')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('밀당 (mildang)', 'Push and pull (flirting).')"
+        >
+          Meaning
+        </button>
+        <audio id="audio2" src="audios/audio-mildang.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>만렙</h2>
+        <button class="play-button" onclick="playAudio('audio3')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('만렙 (mallep)', 'Level 10,000')"
+        >
+          Meaning
+        </button>
+        <audio id="audio3" src="audios/audio-mallep.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>심쿵</h2>
+        <button class="play-button" onclick="playAudio('audio4')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal(' 심쿵 (simkung)', 'Heartthrob (huge crush)')"
+        >
+          Meaning
+        </button>
+        <audio id="audio4" src="audios/audio-simkung.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>댓츠 노노</h2>
+        <button class="play-button" onclick="playAudio('audio5')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('댓츠 노노 (daetcheu-nono)','That’s a no no')"
+        >
+          Meaning
+        </button>
+        <audio id="audio5" src="audios/audio-daetcheu-nono.mp3"></audio>
+      </div>
+      <!-- Add more boxes as needed -->
+    </div>
+
+    <div class="row-2">
+      <div class="box">
+        <h2>대박</h2>
+        <button class="play-button" onclick="playAudio('audio6')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('대박 (daebak)' , 'Awesome')"
+        >
+          Meaning
+        </button>
+        <audio id="audio6" src="audios/audio-daebak.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>엄친아</h2>
+        <button class="play-button" onclick="playAudio('audio7')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('엄친아 (eomchina)','Someone who is good at everything')"
+        >
+          Meaning
+        </button>
+        <audio id="audio7" src="audios/audio-eomchina.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>멘붕</h2>
+        <button class="play-button" onclick="playAudio('audio8')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('멘붕 (menbung)', 'Mental breakdown')"
+        >
+          Meaning
+        </button>
+        <audio id="audio8" src="audios/audio-menbung.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>치맥</h2>
+        <button class="play-button" onclick="playAudio('audio9')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('치맥 (chimaek)', 'Chicken and beer')"
+        >
+          Meaning
+        </button>
+        <audio id="audio9" src="audios/audio-chimaek.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>개이득</h2>
+        <button class="play-button" onclick="playAudio('audio10')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('개이득 (gaeideuk)', 'Big, unexpected benefit or profit')"
+        >
+          Meaning
+        </button>
+        <audio id="audio10" src="audios/audio-gaeideuk.mp3"></audio>
+      </div>
+      <!-- Add more boxes as needed -->
+    </div>
+
+    <div class="row-3">
+      <div class="box">
+        <h2>지린다</h2>
+        <button class="play-button" onclick="playAudio('audio11')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('지린다 (jirinda)', 'Something is just so cool')"
+        >
+          Meaning
+        </button>
+        <audio id="audio11" src="audios/audio-jirinda.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>썸</h2>
+        <button class="play-button" onclick="playAudio('audio12')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('썸 (sseom)', '“Something” between two people')"
+        >
+          Meaning
+        </button>
+        <audio id="audio12" src="audios/audio-sseom.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>케미</h2>
+        <button class="play-button" onclick="playAudio('audio13')">
+          Play Audio
+        </button>
+        <button class="meaning" onclick="showModal('케미 (kemi)', 'Chemistry')">
+          Meaning
+        </button>
+        <audio id="audio13" src="audios/audio-kemi.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>깜놀</h2>
+        <button class="play-button" onclick="playAudio('audio14')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('깜놀 (kkamnol)', 'Surprise!')"
+        >
+          Meaning
+        </button>
+        <audio id="audio14" src="audios/audio-kkamnol.mp3"></audio>
+      </div>
+      <div class="box">
+        <h2>훈남</h2>
+        <button class="play-button" onclick="playAudio('audio15')">
+          Play Audio
+        </button>
+        <button
+          class="meaning"
+          onclick="showModal('훈남 (hunnam)', 'A handsome and well-mannered guy')"
+        >
+          Meaning
+        </button>
+        <audio id="audio15" src="audios/audio-hunnam.mp3"></audio>
+      </div>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-text"></p>
+      </div>
+    </div>
+  </body>
+</html>
